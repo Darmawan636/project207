@@ -47,7 +47,7 @@ Route::group(['prefix' => 'belajar'], function () {
 
 //route default
 Route::get('/', function () {
-    return view('welcome');
+    return view('portofolio');
 });
 
 Route::get('/home', function () {
